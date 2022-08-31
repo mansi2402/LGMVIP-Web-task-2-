@@ -1,0 +1,135 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+
+body{
+    font-family: sans-serif;
+    
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    background-image:url("background.jpg") ;
+    margin: 50px auto;
+}
+.calculator{
+    width: 30%;
+    height: 450px;
+    background-color:#15173c;
+     margin: 50px auto; 
+     padding: 10px;
+    top: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 20px 50px rgba(0, 5, 24, 0.4);
+}
+
+.result{
+    height: 23%;
+}
+.result input{
+  height: 70%;
+   width: 89%;
+   text-align: right;
+   margin: 18px; 
+   padding: 5px 5px;
+   text-align: right;
+   border: none;
+   font-size: 35px;
+   
+}
+.buttons input[type="button"] {
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 10px;
+   
+  }
+  /* .buttons input[type="button"] {
+    box-shadow: 0 8px 25px #024251;
+  } */
+  .buttons input[type="button"]:hover {
+    box-shadow: 0 8px 15px #4b90a0;
+  }
+  
+  
+  
+#keyboard{
+    height: 400px;
+     margin: 10px; 
+}
+
+.operator, .number, .empty{
+    width: 40px;
+    height: 39px;
+    margin: 15px;
+    float: left;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.number, .operator{
+    cursor: pointer;
+}
+input:active{
+       font-size: 15px;
+}
+input:active{
+    font-size: 1px;
+}
+.operator:focus,.number:focus{
+    outline: 0;
+}
+#buttons input:hover,#buttons input:visited{
+    background: #777777;
+    color: #ffffff;
+}
+
+ #div{
+    
+    font-size:23px;
+}
+#mul{
+
+    font-size:23px;
+}
+#sub{
+    
+    font-size:23px;
+}
+#add{
+    
+    font-size:23px;
+}
+#equals{
+    font-size:23px;
+}
+#dot{
+    font-size: 25px;
+}
+.number{
+    font-size: 20px;
+}
+#clear,#sign{
+    font-size: 20px;
+}
+#clear{
+   width: 110px;
+    color: red;
+} 
+#erase{
+    font-size: 25px;
+    
+}
+#zero{
+    
+    border-radius: 6px;
+
+}
